@@ -11,7 +11,7 @@ yt = YouTube(link)
 # Começa o download
 print("Download...")
 ys = yt.streams.filter(only_audio=True).first().download(path)
-print("Download finalizada!")
+print("Download finalizado!")
 
 # Converte mp4 para mp3
 print('Convertendo arquivo...')
